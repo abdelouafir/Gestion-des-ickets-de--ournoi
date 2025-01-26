@@ -42,3 +42,6 @@ CREATE TABLE Match (
     FOREIGN KEY (equipe2_id) REFERENCES Team(id) ON DELETE CASCADE,
     FOREIGN KEY (stade_id) REFERENCES Stadium(id) ON DELETE CASCADE
 );
+
+
+fko
